@@ -25,12 +25,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  position: absolute;
+  position: relative;
   width: 302px;
   height: 302px;
-  left: 24px;
-  top: 24px;
+  left: 0px;
+  top: -124px;
   border-radius: 10px;
 }
 .content-box {
@@ -83,9 +82,45 @@ body {
   left: 182px;
 }
 .nft-pic {
+  opacity: 1;
+  display: block;
   width: 302px;
   height: 302px;
   border-radius: 10px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.nft-pic:hover {
+  cursor:pointer;
+}
+.view-point {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.img-box:hover .nft-pic {
+  opacity: 1;
+}
+.img-box:hover .view-point {
+  opacity: 0.5;
+}
+.img-box:hover .upper-view-point {
+  opacity: 1;
+}
+.upper-view-point {
+  transition: .2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 #title {
@@ -238,4 +273,17 @@ a {
 @media screen and (max-width: 375px) {
   body { width:100%; margin:0; border:none; }
   .NFT { width:100%; }
+}
+#view {
+  border-radius: 10px;
+  width: 302px;
+  height: 302px;
+  /* border: solid 126px hsl(178, 100%, 50%); */
+  background: hsl(178, 100%, 50%);
+}
+#view-pic {
+  position: relative;
+  width: 65px;
+  height: 65px;
+  z-index: 1;
 }

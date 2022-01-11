@@ -152,14 +152,14 @@ body {
   position: absolute;
   width: 18px;
   height: 18px;
-  left: 25px;
+  left: 22px;
   top: 11px;
 }
 #dead-line {
   position: absolute;
   width: 77px;
   height: 20px;
-  left: 45px;
+  left: 42px;
   top: -8px;
 
   font-family: Outfit;

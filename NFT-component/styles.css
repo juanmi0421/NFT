@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+  margin: 0;;
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsl(217, 54%, 11%);
+}
+#NFT {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 350px;
+  height: 596px;
+  /* left: 590px; */
+  top: 33px;
+  background: hsl(216, 50%, 16%);
+  border-radius: 12px;
+  box-shadow: 0 28px 0 16px #0c1729, 0 30px 0 45px #0c192c;
+}
+.img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  position: absolute;
+  width: 302px;
+  height: 302px;
+  left: 24px;
+  top: 24px;
+  border-radius: 10px;
+}
+.content-box {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  position: absolute;
+  /* background: #ff0000; */
+  position: absolute;
+  width: 302px;
+  height: 150px;
+  left: 24px;
+  top: 345px;
+  border-radius: 10px;
+}
+.author-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  /* background: #5590ff; */
+  position: absolute;
+  width: 302px;
+  height: 55px;
+  left: 24px;
+  top: 525px;
+  border-radius: 10px;
+}
+.cost-box {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  position: absolute;
+  /* background: rgb(252, 59, 133); */
+  border-radius: 10px;
+  width: 120px;
+  height: 40px;
+  top: 115px;
+}
+.date-box {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  position: absolute;
+  /* background: rgb(59, 252, 107); */
+  border-radius: 10px;
+  width: 120px;
+  height: 40px;
+  top: 115px;
+  left: 182px;
+}
+#nft-pic {
+  position: absolute;
+  width: 302px;
+  height: 302px;
+  border-radius: 10px;
+}
+#title {
+  position: absolute;
+  width: 185px;
+  height: 26px;
+  top: -20px;
+
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+
+  color: #FFFFFF;
+}
+#description {
+  position: absolute;
+  width: 290px;
+  height: 52px;
+  top: 35px ;
+
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 144% */
+
+  color: #8bacda;
+}
+#icon-ethereum {
+  position: absolute;
+  width: 12px;
+  height: 20px;
+  left: 0px;
+  top: 11px;
+}
+#cost {
+  position: absolute;
+  width: 83px;
+  height: 20px;
+  left: 20px;
+  top: -9px;
+
+  font-family: Outfit;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 26px;
+  /* or 153% */
+
+  letter-spacing: -0.01em;
+
+  color: hsl(178, 100%, 50%);
+}
+#clock {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 25px;
+  top: 11px;
+}
+#dead-line {
+  position: absolute;
+  width: 77px;
+  height: 20px;
+  left: 45px;
+  top: -8px;
+
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+
+  color: #8bacda;
+}
+#divisor {
+  position: absolute;
+  width: 304px;
+  height: 1px;
+  left: 24px;
+  top: 510px;
+  background: #2f415b;
+}
+#avatar {
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  left: 1px;
+  top: 11px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px#FFFFFF;
+}
+#author {
+  position: absolute;
+  width: 89px;
+  height: 20px;
+  left: 50px;
+  top: 0px;
+
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+
+  color: #8bacda;
+}
+#author-name {
+  position: absolute;
+  width: 97px;
+  height: 20px;
+  left: 135px;
+  top: 0px;
+  
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+
+  color: white;
+}

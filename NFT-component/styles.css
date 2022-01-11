@@ -283,7 +283,7 @@ a {
 }
 #view-pic {
   position: relative;
-  width: 65px;
-  height: 65px;
+  width: 4rem;
+  height: 4rem;
   z-index: 1;
 }
